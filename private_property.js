@@ -1,3 +1,8 @@
+/*
+Properties 'name' and 'data' - are private and not accessible directly from the object. 
+Access occurs only through pre-announced methods in the constructor function 'obj'.
+*/
+
 function Builder() {
   let name = 'Andrew';
   const data = {};
